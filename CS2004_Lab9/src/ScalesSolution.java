@@ -71,7 +71,7 @@ public class ScalesSolution
 	}
 	public void SmallChange()	//swaps a random element of the scasol
 	{
-		int p = CS2004.UI(0,scasol.length());
+		int p = CS2004.UI(0,scasol.length()-1);
 		String x = "";
 		for(int i = 0;i<scasol.length();i++) {
 			if (i == p) {
@@ -84,4 +84,9 @@ public class ScalesSolution
 		}
 		scasol = x;
 	}
+	public String GetSol()
+	{
+		return(scasol);
+	}
+
 }
