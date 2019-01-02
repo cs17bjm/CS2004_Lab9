@@ -25,6 +25,8 @@ public class Lab9 {
 		a = RMHC(listA, listA.size(), 5);
 		System.out.println("---------------");
 
+		ScalesSolution b = new ScalesSolution(1000);
+		b = RMHC(CS2004.ReadNumberFile("C:\\Users\\Brandon\\eclipse-workspace\\CS2004_Lab8\\src\\1000_Primes.txt"), 1000, 1000);
 
 	}
 	public static ScalesSolution RMHC(ArrayList<Double> weights,int n,int iter)
